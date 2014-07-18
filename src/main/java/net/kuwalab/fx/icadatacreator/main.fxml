@@ -6,46 +6,51 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.AnchorPane?>
 
 <BorderPane prefHeight="300.0" prefWidth="500.0"
  xmlns:fx="http://javafx.com/fxml">
  <center>
-  <VBox spacing="10.0">
-   <children>
-    <HBox spacing="10.0" alignment="BASELINE_LEFT">
-     <children>
-      <Label text="処理日付" />
-      <TextField prefWidth="55.0" />
-      <Label text="年" />
-      <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
-      <Label text="月" />
-      <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
-      <Label text="日" />
-     </children>
-    </HBox>
-    <HBox spacing="10.0" alignment="BASELINE_LEFT">
-     <children>
-      <Label text="乗車時刻" />
-      <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
-      <Label text="時" />
-      <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
-      <Label text="分" />
-      <Label text="降車時刻" />
-      <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
-      <Label text="時" />
-      <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
-      <Label text="分" />
-     </children>
-    </HBox>
-    <HBox spacing="10.0" alignment="BASELINE_LEFT">
-     <children>
-      <Label text="利用金額" />
-      <TextField prefWidth="80.0" alignment="CENTER_RIGHT" />
-      <Label text="残額" />
-      <TextField prefWidth="80.0" alignment="CENTER_RIGHT" />
-     </children>
-    </HBox>
-   </children>
-  </VBox>
+  <AnchorPane>
+   <VBox spacing="10.0" AnchorPane.topAnchor="10.0"
+    AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0"
+    AnchorPane.rightAnchor="10.0">
+    <children>
+     <HBox spacing="10.0" alignment="BASELINE_LEFT">
+      <children>
+       <Label text="処理日付" />
+       <TextField prefWidth="55.0" />
+       <Label text="年" />
+       <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
+       <Label text="月" />
+       <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
+       <Label text="日" />
+      </children>
+     </HBox>
+     <HBox spacing="10.0" alignment="BASELINE_LEFT">
+      <children>
+       <Label text="乗車時刻" />
+       <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
+       <Label text="時" />
+       <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
+       <Label text="分" />
+       <Label text="降車時刻" />
+       <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
+       <Label text="時" />
+       <TextField prefWidth="35.0" alignment="CENTER_RIGHT" />
+       <Label text="分" />
+      </children>
+     </HBox>
+     <HBox spacing="10.0" alignment="BASELINE_LEFT">
+      <children>
+       <Label text="利用金額" />
+       <TextField prefWidth="80.0" alignment="CENTER_RIGHT" />
+       <Label text="残額" />
+       <TextField prefWidth="80.0" alignment="CENTER_RIGHT" />
+      </children>
+     </HBox>
+    </children>
+   </VBox>
+  </AnchorPane>
  </center>
 </BorderPane>
